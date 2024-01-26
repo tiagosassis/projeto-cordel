@@ -15,16 +15,3 @@ header{
     color: white;
     text-align: center;
 }
-
-h1{
-    font-family: 'Sriracha', cursive;
-}
-
-body p{
-    font-family: var(--fonte2);
-}
-
-p {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-}
