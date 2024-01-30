@@ -31,13 +31,15 @@ h1{
     padding-top: 50px;
 }
 
+main{
+    font: 3.5vw var(--fonte3);
+    line-height: 2em;
+}
+
 section{
     padding: 30px;
     padding-top: 10vh;
     padding-bottom: 10vh;
-
-    font: 3.5vw var(--fonte3);
-    line-height: 2em;
 
     background-color: white;
 }
