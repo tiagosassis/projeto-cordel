@@ -22,7 +22,8 @@ header > p{
 }
 
 h1{
-    font: small-caps 8vw ;
+    font-size: 8vw;
+    font-variant: small-caps;
     padding-top: 50px;
 }
 
