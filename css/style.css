@@ -4,3 +4,45 @@
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Sriracha', cursive;
 }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > p{
+    font-family: var(--fonte1);
+    padding-bottom: 50px;
+}
+
+h1{
+    font-family: var(--fonte1);
+    font-size: 8vw;
+    padding-top: 50px;
+}
+
+footer{
+    padding-block-start: 0.6em;
+    padding-block-end: 0.6em;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1vw;
+    font-family: var(--fonte1);
+}
+
+.link{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
