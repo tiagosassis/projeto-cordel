@@ -17,14 +17,29 @@ header{
 }
 
 header > p{
-    font-family: var(--fonte1);
     padding-bottom: 50px;
 }
 
 h1{
-    font-family: var(--fonte1);
     font-size: 8vw;
     padding-top: 50px;
+    font-variant: small-caps;
+}
+
+body{
+    font-size: 3.5vw;
+    font-family: var(--fonte1);
+}
+
+main{
+    padding: 20px;
+    line-height: 2em;
+    font-family: var(--fonte2);
+}
+
+main p{
+    padding-block-start: 1em;
+    padding-block-end: 1em;
 }
 
 footer{
@@ -34,7 +49,6 @@ footer{
     color: white;
     text-align: center;
     font-size: 1vw;
-    font-family: var(--fonte1);
 }
 
 .link{
