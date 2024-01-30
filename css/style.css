@@ -1,8 +1,11 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
 :root {
-    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
-    --fonte2: 'Passion One', cursive;
-    --fonte3: 'Sriracha', cursive;
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
 }
 
 *{
@@ -11,7 +14,6 @@
 }
 
 header{
-    font-family: var(--fonte1);
     background-color: black;
     color: white;
     text-align: center;
@@ -19,57 +21,60 @@ header{
 
 header > p{
     padding-bottom: 50px;
+    font-family: var(--font1);
 }
 
 h1{
-    font-size: 8vw;
+    font-family: var(--font2);
+    font-size: 10vw;
     font-variant: small-caps;
     padding-top: 50px;
 }
 
-main{
-    font: 3.5vw var(--fonte3);
-    line-height: 2em;
-}
-
 section{
+    font-size: 3.5vw;
+    line-height: 2em;
+
     padding: 30px;
-    
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
 
-section > p{
+section p{
     padding-bottom: 2em;
+    font-family: var(--font3);
 }
 
 #section1{
     color: white;
     background: black url(../images/background001.jpg) no-repeat fixed center center;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473)
 }
 
 #section2{
     color: white;
     background: black url(../images/background002.jpg) no-repeat fixed left top;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473)
 }
 
 
 div{
-    background-color: rgba(0, 0, 0, 0.46);
-    width: 44vw;
-    padding-inline-start: 4px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
 }
 
 footer{
+    font-family: var(--font1);
     padding-block-start: 0.6em;
     padding-block-end: 0.6em;
 
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 1vw;
+    font-size: 1em;
 }
 
 .link{
