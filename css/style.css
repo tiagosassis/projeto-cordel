@@ -11,7 +11,6 @@
 }
 
 header{
-    font-family: var(--fonte1);
     background-color: black;
     color: white;
     text-align: center;
@@ -22,49 +21,30 @@ header > p{
 }
 
 h1{
-    font: small-caps 8vw ;
+    font-size: 8vw;
     padding-top: 50px;
+    font-variant: small-caps;
+}
+
+body{
+    font-size: 3.5vw;
+    font-family: var(--fonte1);
 }
 
 main{
-    font: 3.5vw var(--fonte3);
+    padding: 20px;
     line-height: 2em;
+    font-family: var(--fonte2);
 }
 
-section{
-    padding: 30px;
-    
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-}
-
-section > p{
-    padding-bottom: 2em;
-}
-
-#section1{
-    color: white;
-    background: black url(../images/background001.jpg) no-repeat fixed center center;
-    background-size: cover;
-}
-
-#section2{
-    color: white;
-    background: black url(../images/background002.jpg) no-repeat fixed left top;
-    background-size: cover;
-}
-
-
-div{
-    background-color: rgba(0, 0, 0, 0.46);
-    width: 44vw;
-    padding-inline-start: 4px;
+main p{
+    padding-block-start: 1em;
+    padding-block-end: 1em;
 }
 
 footer{
     padding-block-start: 0.6em;
     padding-block-end: 0.6em;
-
     background-color: black;
     color: white;
     text-align: center;
